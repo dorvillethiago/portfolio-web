@@ -26,7 +26,7 @@ export function Hero() {
 				<h2 className="bg-clip-text bg-silver text-transparent">
 					Software Engineer
 				</h2>{" "}
-				<Sparkles className="opacity-80" strokeWidth={1.4} />
+				<Sparkles className="opacity-80" strokeWidth={1} />
 			</motion.span>
 			<h1 className="font-semibold text-7xl leading-[6rem]">
 				{name.split("").map((letter, index) => (
