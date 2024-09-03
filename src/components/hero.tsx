@@ -86,7 +86,7 @@ export function Hero() {
 				</button>
 				<Link
 					href="/contact"
-					className="bg-card py-3 px-6 rounded-xl hover:scale-110 active:scale-90 transition-transform"
+					className="bg-white/5 border-[1px] border-white/15 backdrop-blur-xl py-3 px-6 rounded-xl hover:scale-110 active:scale-90 transition-transform"
 				>
 					Contact
 				</Link>
