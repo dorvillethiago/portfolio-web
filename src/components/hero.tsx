@@ -80,9 +80,9 @@ export function Hero() {
 			>
 				<button
 					type="button"
-					className="font-medium bg-primary border-lighter-primary border-[1px] flex gap-2 py-3 px-6 rounded-xl hover:scale-110 active:scale-90 transition-transform"
+					className="font-medium bg-primary border-lighter-primary border-[1px] flex items-center gap-2 py-3 px-6 rounded-xl hover:scale-110 active:scale-90 shadow-xl hover:shadow-lighter-primary/15 transition-all"
 				>
-					Explore <ArrowRight />
+					Explore <ArrowRight size={22} />
 				</button>
 				<Link
 					href="/contact"

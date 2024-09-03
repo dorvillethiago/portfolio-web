@@ -38,7 +38,7 @@ export default function Contact() {
 				{ContactMethods.map((method) => (
 					<motion.li key={method.name}>
 						<Link target="_blank" href={method.href}>
-							<Card className="p-5 hover:text-primary hover:scale-105 hover:rotate-6 hover:bg-lighter-primary/25 transition-all">
+							<Card className="p-5 hover:text-primary hover:scale-105 hover:rotate-6 hover:bg-darker-primary transition-all">
 								{method.icon}
 							</Card>
 						</Link>
