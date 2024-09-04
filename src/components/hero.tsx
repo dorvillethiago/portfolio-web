@@ -29,7 +29,7 @@ export function Hero() {
 			<h1 className="font-semibold text-7xl leading-[6rem]">
 				{name.split("").map((letter, index) => (
 					<motion.span
-						className="bg-clip-text bg-silver text-transparent cursor-default"
+						className="bg-clip-text bg-silver text-transparent"
 						// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 						key={index}
 						initial={{ opacity: 0 }}

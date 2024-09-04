@@ -13,17 +13,17 @@ const ContactMethods = [
 	{
 		name: "GitHub",
 		icon: <SiGithub size={44} />,
-		href: "",
+		href: "https://github.com/dorvillethiago",
 	},
 	{
 		name: "LinkedIn",
 		icon: <SiLinkedin size={44} />,
-		href: "",
+		href: "https://www.linkedin.com/in/thiago-dorville/",
 	},
 	{
 		name: "WhatsApp",
 		icon: <SiWhatsapp size={44} />,
-		href: "",
+		href: "https://api.whatsapp.com/send?phone=5582996448092",
 	},
 ];
 

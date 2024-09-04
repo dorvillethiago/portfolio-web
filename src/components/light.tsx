@@ -12,8 +12,8 @@ export function Light() {
 				opacity: 1,
 			}}
 			transition={{
-				delay: 1.1,
-				duration: 1.5,
+				delay: 1.4,
+				duration: 2,
 			}}
 			className="h-96 w-[80%] bg-lighter-primary absolute -top-40 left-1/2 -translate-x-1/2 blur-[300px] sm:blur-[400px] md:blur-[500px]"
 		/>

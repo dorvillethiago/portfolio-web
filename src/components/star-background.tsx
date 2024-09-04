@@ -46,7 +46,7 @@ export function StarsCanvas() {
 			}}
 			transition={{
 				duration: 0.5,
-				delay: 0.5,
+				delay: 1,
 			}}
 			className="w-full h-auto fixed inset-0"
 		>
