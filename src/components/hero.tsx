@@ -21,12 +21,10 @@ export function Hero() {
 				transition={{
 					delay: 1.1,
 				}}
-				className="flex font-light gap-3 text-2xl items-center"
+				className="flex gap-2 text-2xl items-center"
 			>
-				<h2 className="bg-clip-text bg-silver text-transparent">
-					Software Engineer
-				</h2>{" "}
-				<Sparkles className="opacity-80" strokeWidth={1} />
+				<h2 className="font-light">Software Engineer</h2>
+				<Sparkles className="" strokeWidth={1.4} />
 			</motion.span>
 			<h1 className="font-semibold text-7xl leading-[6rem]">
 				{name.split("").map((letter, index) => (
