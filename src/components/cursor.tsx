@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 
 export function Cursor() {
 	const [mousePosition, setMousePosition] = React.useState({
-		x: window.innerWidth / 2,
-		y: window.innerHeight / 2,
+		x: typeof window !== "undefined" ? window.innerWidth / 2 : 0,
+		y: typeof window !== "undefined" ? window.innerHeight / 2 : 0,
 	});
 
 	React.useEffect(() => {
@@ -45,7 +45,7 @@ export function Cursor() {
 						x: mousePosition.x,
 						y: mousePosition.y,
 						transition: {
-							duration: 0.1,
+							duration: 0,
 						},
 						opacity: 1,
 					},

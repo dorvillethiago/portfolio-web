@@ -76,12 +76,12 @@ export function Hero() {
 				}}
 				className="flex gap-4 flex-wrap mt-16"
 			>
-				<button
-					type="button"
+				<Link
+					href="/projects"
 					className="font-medium bg-primary border-lighter-primary border-[1px] flex items-center gap-2 py-3 px-6 rounded-xl hover:scale-110 active:scale-90 shadow-xl hover:shadow-lighter-primary/15 transition-all"
 				>
-					Explore <ArrowRight size={22} />
-				</button>
+					Projects <ArrowRight size={22} />
+				</Link>
 				<Link
 					href="/contact"
 					className="bg-white/5 border-[1px] border-white/15 backdrop-blur-xl py-3 px-6 rounded-xl hover:scale-110 active:scale-90 transition-transform"
