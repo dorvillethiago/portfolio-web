@@ -29,7 +29,7 @@ export default function RootLayout({
 				<Light />
 				<Cursor />
 				<StarsCanvas />
-				<main className="px-8 flex items-center justify-center h-screen pb-[200px] z-40 overflow-hidden">
+				<main className="px-8 flex items-center justify-center h-screen pb-16 sm:pb-[200px] z-40 overflow-hidden">
 					{children}
 				</main>
 				<Planet />
