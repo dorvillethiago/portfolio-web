@@ -59,7 +59,7 @@ export function Hero() {
 				}}
 				className="font-light opacity-75 mt-4"
 			>
-				“I work so companies can have maintanable, scalable
+				“I work so companies can have maintainable, scalable
 				<br /> and reliable software.”
 			</motion.h3>
 			<motion.span
