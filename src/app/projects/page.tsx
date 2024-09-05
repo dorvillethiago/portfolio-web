@@ -19,6 +19,24 @@ export default function Projects() {
 					<li className="shrink-0">
 						<Project>
 							<ProjectPreview
+								src="/gcn-solucoes.png"
+								href="https://www.gcnsolucoes.com.br/"
+							>
+								<ProjectDescription>
+									Tech company that provides software and hosting.
+								</ProjectDescription>
+							</ProjectPreview>
+
+							<ProjectTitle>GCN Solutions</ProjectTitle>
+							<ProjectBrief>
+								Landing page made with Next.js, Tailwind and Framer Motion.
+							</ProjectBrief>
+						</Project>
+					</li>
+
+					<li className="shrink-0 ml-8">
+						<Project>
+							<ProjectPreview
 								src="/liveness.png"
 								href="https://liveness-premium.vercel.app/"
 							>
