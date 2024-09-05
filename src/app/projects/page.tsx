@@ -16,9 +16,12 @@ export default function Projects() {
 		<div className="w-screen flex justify-center px-4">
 			<div className="overflow-hidden" ref={ref}>
 				<ul className="flex">
-					<li className="shrink-0 ml-2">
+					<li className="shrink-0">
 						<Project>
-							<ProjectPreview src="/liveness.png" href="https://liveness-premium.vercel.app/">
+							<ProjectPreview
+								src="/liveness.png"
+								href="https://liveness-premium.vercel.app/"
+							>
 								<ProjectDescription>
 									Face detection and validation system with face-api.js using
 									Next.js 14.
