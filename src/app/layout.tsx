@@ -24,10 +24,9 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${poppins.className} bg-black text-foreground cursor-none overflow-hidden flex flex-col`}
+				className={`${poppins.className} bg-black text-foreground overflow-hidden flex flex-col`}
 			>
 				<Light />
-				<Cursor />
 				<StarsCanvas />
 				<main className="px-8 flex items-center justify-center h-screen pb-20 sm:pb-[200px] z-40 overflow-hidden">
 					{children}
