@@ -27,35 +27,35 @@ To get started with this project, follow these steps:
 1. **Fork the repository**: Click the "Fork" button at the top right of the repository page on GitHub to create a copy of this project to your GitHub account.
 
 2. **Clone your fork**:
-   \`\`\`bash
+   ```
    git clone https://github.com/your-username/dorville.git
    cd dorville
-   \`\`\`
+   ```
 
 3. **Install dependencies**:
    Make sure you have `Node.js` and `bun` installed. Run the following command to install all necessary dependencies:
-   \`\`\`bash
+   ```
    bun install
-   \`\`\`
+   ```
 
 4. **Run the development server**:
    After installation, start the development server using:
-   \`\`\`bash
+   ```
    bun dev
-   \`\`\`
+   ```
    Your app will be running locally at `http://localhost:3000`.
 
 5. **Build for production**:
    To create an optimized production build, run:
-   \`\`\`bash
+   ```
    bun run build
-   \`\`\`
+   ```
 
 6. **Start the production server**:
    Once the build is ready, you can start the production server:
-   \`\`\`bash
+   ```
    bun start
-   \`\`\`
+   ```
 
 ## Customization
 
