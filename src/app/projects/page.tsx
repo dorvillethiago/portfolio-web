@@ -37,18 +37,18 @@ export default function Projects() {
 					<li className="shrink-0 ml-8">
 						<Project>
 							<ProjectPreview
-								src="/liveness.png"
-								href="https://liveness-premium.vercel.app/"
+								src="/gcn-hosting.png"
+								href="https://www.gcnhosting.com.br/"
 							>
 								<ProjectDescription>
-									Face detection and validation system with face-api.js using
-									Next.js 14.
+									Website for a hosting company made with React.js.
 								</ProjectDescription>
 							</ProjectPreview>
 
-							<ProjectTitle>Liveness Premium</ProjectTitle>
+							<ProjectTitle>GCN Hosting</ProjectTitle>
 							<ProjectBrief>
-								Prove of live system that can validate faces in real time.
+								Fluid and beautiful hosting company website that uses React.js
+								and React Router.
 							</ProjectBrief>
 						</Project>
 					</li>
