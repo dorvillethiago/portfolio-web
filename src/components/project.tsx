@@ -18,7 +18,6 @@ export function ProjectPreview({
 }) {
 	return (
 		<div className="group relative overflow-hidden rounded-xl">
-			{/* TODO: This should be a preview image of the project */}
 			<Link
 				target="_blank"
 				href={href as string}
@@ -30,7 +29,7 @@ export function ProjectPreview({
 					height={160}
 					width={320}
 					alt="Project image"
-					className="h-48 bg-center object-cover"
+					className="h-44 bg-center object-cover"
 				/>
 			</Link>
 			{children}
